@@ -136,14 +136,12 @@ export const PROJECTS_DATA = [
     accuracy: "~85% Accuracy",
     description: "Trained and evaluated a supervised Machine Learning classification model to predict student placement outcomes with approximately 85% accuracy. Analyzed academic parameters, internship status, backlogs, and project experience to yield actionable placement readiness indicators.",
     highlights: [
-      "Preprocessed student historical academic records and performed feature engineering & normalization.",
-      "Trained classification algorithms (Random Forest & Logistic Regression) optimized for precision & recall.",
-      "Achieved ~85% validation accuracy, reducing uncertainty in career placement counselling.",
-      "Built an intuitive interactive calculator interface to simulate real-time probability changes."
+      "Preprocessed student historical academic records, handled outliers, and performed feature scaling & normalization.",
+      "Trained and tuned classification models (Random Forest, Logistic Regression) evaluated with precision, recall, and ROC-AUC.",
+      "Achieved ~85% test validation accuracy, reducing uncertainty in student career placement counselling.",
+      "Conducted feature importance analysis highlighting CGPA, project count, and internship experience as primary placement drivers."
     ],
-    tech: ["Python", "Machine Learning", "Scikit-Learn", "Data Analysis", "Feature Engineering", "Pandas"],
-    githubUrl: "https://github.com",
-    hasSimulator: true
+    tech: ["Python", "Machine Learning", "Scikit-Learn", "Data Analysis", "Feature Engineering", "Pandas"]
   },
   {
     id: "eda-analytics",

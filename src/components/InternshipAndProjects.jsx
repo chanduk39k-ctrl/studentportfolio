@@ -8,7 +8,6 @@ import {
   ExternalLink
 } from 'lucide-react';
 import { INTERNSHIPS_DATA, PROJECTS_DATA } from '../data/portfolioData';
-import { PlacementSimulator } from './PlacementSimulator';
 
 export const InternshipAndProjects = () => {
   return (
@@ -174,9 +173,6 @@ export const InternshipAndProjects = () => {
                   </span>
                 ))}
               </div>
-
-              {/* Interactive Placement Simulator widget */}
-              {project.hasSimulator && <PlacementSimulator />}
             </motion.div>
           ))}
         </div>
